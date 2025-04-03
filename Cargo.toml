@@ -1,0 +1,13 @@
+[package]
+name = "shadow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+color-eyre = "0.6.3"
+eyre = "0.6.12"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["fmt", "env-filter"] }
+vscodehelper = "0.2.1"
+cloud_terrastodon_core_user_input = { git = "https://github.com/AAFC-Cloud/Cloud-Terrastodon", rev = "1332247ae3fa97e9ff29b4320666782c86d020e5", version = "0.1.0" }
+tokio = { version = "1.44.1", features = ["full"] }
